@@ -6,8 +6,8 @@
 const outputTag = document.getElementById('output');
 const age = parseInt(prompt('Digita la tua età')) ;
 const km = parseInt(prompt('Digita il numero di km da percorrere')) ;
-const sconto20 = parseInt 0.20
-const sconto40 = parseInt 0.40
+const sconto20 = 0.20
+const sconto40 = 0.40
 const price = parseInt (km * 0.21) 
 
 // 2
