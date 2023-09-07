@@ -8,7 +8,7 @@ const age = parseInt(prompt('Digita la tua età')) ;
 const km = parseInt(prompt('Digita il numero di km da percorrere')) ;
 const sconto20 = 0.20
 const sconto40 = 0.40
-let price = (km * 0.21) 
+let price = (km * 0.21); 
 price.toFixed(2);
 // 2
 // if (age < 18) {
