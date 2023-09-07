@@ -8,7 +8,8 @@ const age = parseInt(prompt('Digita la tua età')) ;
 const km = parseInt(prompt('Digita il numero di km da percorrere')) ;
 const sconto20 = 0.20
 const sconto40 = 0.40
-const price = parseInt (km * 0.21) 
+const price = (km * 0.21) 
+price.toFixed(2) ;
 
 // 2
 // if (age < 18) {
@@ -28,23 +29,17 @@ const price = parseInt (km * 0.21)
 
 
   if (age < 18) {
-    price = ( km * 0.21 ) * sconto20
+  console.log(price * sconto20) 
   }
-  else (age > 17) 
-  {
-    price = km * 0.21
-  }
+
 
 
   if (age > 64) {
-    price = ( km * 0.21 ) * sconto40
+  console.log (price * sconto40) 
   }
-  else (age < 65) 
-  {
-    price = km * 0.21
-  }
+  
 
-let messaggio = price 
+const messaggio = price 
 
 
 // 3
