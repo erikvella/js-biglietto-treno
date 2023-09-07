@@ -45,5 +45,5 @@ let messaggio = price
 
 
 // 3
-outputTag.innerHTML = messaggio;
+outputTag.innerHTML = messaggio.toFixed(2);
 
