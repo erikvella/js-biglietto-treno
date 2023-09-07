@@ -9,24 +9,19 @@ const km = parseInt(prompt('Digita il numero di km da percorrere')) ;
 const sconto20 = 0.20
 const sconto40 = 0.40
 let price = (km * 0.21);
-
+let messaggio = price 
+let datiValidi = true
 // 2
 
 
 // if (age < 18) {
 //   console.log('applico uno sconto del 20%')
 //   }
-//   else (age > 17) 
-//   {
-//     console.log('non applico lo sconto')
-//   }
+//  
 // if (age > 64) {
 //   console.log('applico uno sconto del 40%')
 //   }
-//   else (age < 65) 
-//   {
-//     console.log('non applico lo sconto')
-//   }
+//  
 
 
   if (age < 18) {
@@ -40,7 +35,8 @@ let price = (km * 0.21);
   }
   
 
-let messaggio = price 
+
+
 
 
 
