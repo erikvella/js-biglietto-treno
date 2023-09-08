@@ -9,7 +9,7 @@ const km = parseInt(prompt('Digita il numero di km da percorrere')) ;
 const sconto20 = 0.2
 const sconto40 = 0.4
 let price = (km * 0.21);
-let messaggio = price 
+
 
 // 2
 
@@ -41,5 +41,5 @@ let messaggio = price
 
 
 // 3
-outputTag.innerHTML = messaggio.toFixed(2);
+outputTag.innerHTML = price.toFixed(2);
 
